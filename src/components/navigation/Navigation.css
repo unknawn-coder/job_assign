@@ -1,0 +1,151 @@
+.main-container{
+    width:1440px;
+    height: 576px;
+    background-color:#F0FFF0;
+
+
+}
+.nav-container{
+    box-sizing:border-box;
+   
+    padding:10px;
+    
+    display:flex;
+    justify-content:center;
+    
+}
+.nav-container .navigation-bar{
+    box-sizing:border-box;
+    
+    
+}
+.nav-container .navigation-bar ul{
+    box-sizing: border-box;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+    list-style:none;
+    margin-left:610px;
+    padding:0;
+    
+}
+.nav-container .navigation-bar ul li{
+    padding:5px;
+    cursor:pointer;
+
+}
+.nav-container .navigation-bar ul li:hover{
+    color:red;
+}
+.nav-container .navigation-bar ul li button{
+    box-sizing: border-box;
+    width:104px;
+    height:43px;
+    color:white;
+    background-color:#21B573;
+    border:none;
+    border-radius:33px;
+    padding: 12px 28px 12px 28px;
+    font-size:15px;
+    cursor:pointer;
+
+}
+.nav-container .navigation-bar ul li button:hover{
+    color:#21B573;
+    background-color: lightgray;
+}
+.nav-container .school-logo{
+    box-sizing:border-box;
+ 
+}
+
+.nav-container .school-logo img{ 
+    
+    width: 198.07px;
+    height:59px;
+    margin-left: 0px;
+}
+.main-container .main-content{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
+
+}
+.main-container .main-content .main-text{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+    gap:15px;
+    width:403px;
+    height:85px;
+    margin-top: 170px;
+}
+.main-container .main-content .main-text .main-text-first-para{
+    color:#FD511A;
+    font-size: 16px;
+}
+.main-container .main-content .main-text .main-text-second-para,
+.main-container .main-content .main-text .main-text-third-para{
+    color:#6C6B6B;
+    font-size: 16px;
+}
+
+
+.main-container .main-content .main-text .main-headings .first-head,
+.main-container .main-content .main-text .main-headings .second-head,
+.main-container .main-content .main-text .main-headings .third-head{
+    font-size: 48px;
+    font-weight: 700;
+
+
+}
+.main-container .main-content .main-text .main-headings .second-head,
+.main-container .main-content .main-text .main-headings .third-head{
+    display: inline-block;
+
+}
+.main-container .main-content .main-text .main-headings .third-head{
+    color:#21B573;
+
+}
+.main-container .main-content .main-text button{
+    width:153px;
+    height:43px;
+    border:none;
+    border-radius:33px;
+    padding: 12px 36px 12px 36px;
+    color:white;
+    background-color:#21B573;
+    font-size: 15px;
+    cursor:pointer;
+}
+.main-container .main-content .main-text button:hover{
+    color:#21B573;
+    background-color:lightgray;
+}
+
+.main-container .main-content .main-img img{
+    width:554px;
+    height:346px;
+    margin-left:300px;
+    margin-top: 90px;
+}
+
+
+
+/*media queries */
+@media (min-width:1440px) and (max-width:2560px){
+    .main-container{
+    width:auto;
+    height: 576px;
+    background-color:#F0FFF0;
+
+
+}
+
+    
+
+}
